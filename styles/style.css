@@ -10,22 +10,20 @@ body {
     font-family: Merriweather;
 }
 
-
-
 .header {
     text-align: center;
     padding: 50px;
     background-color: #FFF;
-    background-image: url('../resources/Banner\ Image.png');
+    background-image: url('../resources/Banner Image.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     width: 1320px;
     height: 600px;
     flex-shrink: 0;
-    /* justify-content: center; */
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 }
+
 
 .happy-new-year {
     font-weight: 400;
@@ -41,19 +39,6 @@ body {
     font-weight: 900;
     line-height: 95px;
 }
-
-/* .background-image {
-    background-color: #fff8f3;
-    background-image: url('../resources/Banner\ Image.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 1320px;
-    height: 600px;
-    flex-shrink: 0;
-    /* justify-content: center; */
-    /* border-radius: 16px; */
-    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
-/* } */
 
 .discount-heading {
     color: #F00;
@@ -97,5 +82,94 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 150px;
+    margin: 150px auto;
+}    
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.join-now {
+    text-align: center;
+}
+
+.join-now p {
+    color: red;
+}
+
+.join-now button.btn-primary {
+    background-color: red; 
+    color: #fff;
+    margin-top: 15px;
+}
+
+main {
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+    fill: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+
+
+/* Footer related content */
+
+.footer-column {
+    width: 100%;
+    max-width: 1600px;
+    height: 609px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.address {
+    margin-right: 95px;
+}
+
+.contact-infos {
+    margin-left: auto;
+    text-align: right;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+
+.social-links img {
+    max-width: 30px;
+    height: auto;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright,
+.unsubscribe {
+    font-size: 14px;
+    color: #fff;
+}
+
+footer {
+    display: flex;
+    flex-direction: column; 
+    gap: 100px;
+    background: #070211;
+    margin-top: 100px;
+    padding: 130px 200px;
 }
