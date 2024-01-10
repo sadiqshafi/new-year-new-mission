@@ -1,6 +1,87 @@
 body {
+    font-family: 'Open Sans', sans-serif;
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
-    font-family: 'Open Sans', sans-serif;
+
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #FFF;
+    font-family: Merriweather;
 }
 
+
+
+.header {
+    text-align: center;
+    padding: 50px;
+}
+
+.happy-new-year {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 95px;
+}
+
+.party-text {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+.background-image {
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    justify-content: center;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
+.discount-heading {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 120px;
+    margin-bottom: 48px;
+}
+
+.discount-content {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: none;
+}
+
+.categories {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: none;
+}
+
+.new-year {
+    width: 803px;
+    height: 500px;
+    flex-shrink: 0;
+    fill: url(../resources/New\ Year\ Photo.png), lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
